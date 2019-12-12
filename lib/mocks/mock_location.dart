@@ -2,7 +2,7 @@ import '../models/location.dart';
 import '../models/location_fact.dart';
 
 class MockLocation extends Location {
-  static FetchAny(){
+  static fetchAny(){
     return Location(
       name: 'Arashiyama Bamboo Grove, Kyoto, Japan',
       url: 'https://goo.gl/Npy2K8',
